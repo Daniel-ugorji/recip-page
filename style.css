@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Outfit', young serif, sans-serif;
+    color: var(--Stone-600);
+    background-color: var(--Stone-100);
+}
+
+h1, h2, h3{
+    margin-top: 20px;
+    font-family: 'Young Serif', serif;
+}
+
+
+.im{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.text h1{
+    font-size: 2.5rem;
+    color: var(--Stone-900);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.head{
+    width: 80%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.inst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.inst h3{
+    width: 80%;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+ol{
+    width: 80%;
+    margin-bottom: 20px;
+    color: var(--Stone-600);
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+/* ol{
+    width: 80%;
+    margin-bottom: 20px;
+    color: var(--Brown-800);
+} */
+
+.nut{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nut h3{
+    width: 60%;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+ .nut small{
+    width: 60%;
+    font-size: 0.9rem;
+    color: var(--Stone-600);
+    margin-bottom: 20px;
+ }
+.lead{
+    justify-content: start;
+    width: 80%;
+}
+
+
+small{
+    margin-bottom: 50px;
+}
+
+
+
+p{
+    color: var(--Rose-800)
+}
+
+h3{
+    color: var(--Brown-800);
+}
+
+
+table{
+    place-content: center;
+    width: 30%;    
+}
+
+table tr th{
+    width: 100%;
+    justify-content: space-between;
+}
+
+td{
+    color: var(--Brown-800);
+}
+
+/* moblie design */
+@media (max-width: 768px) {
+    .im IMG{
+        width: 100%;
+        height: 200px;
+    }
+
+    .content{
+        margin-top: 13rem;
+        margin-left: 50px;
+    }
+    .text h1{
+        font-size: 2rem;
+    }
+
+    .head{
+        width: 90%;
+    }
+
+    .inst {
+        margin-left: 50px;
+        width: 100%;
+        font-size: 1.2rem;
+        margin-right: 5em;
+    }
+
+    .inst h3{
+        font-size: 1.2rem;
+    }
+
+    .nut{
+        width: 80%;
+        margin-top: 20px;
+        height: auto;
+    }
+
+    .nut h3{
+        width: 90%;
+        font-size: 1.2rem;
+    }
+
+    table{
+    place-content: center;
+    width: 60%;   
+}
+
+
+
+td{
+    
+    color: var(--Brown-800);
+}
+    .lead{
+        width: 90%;
+    }
+
+    small{
+        margin-bottom: 20px;
+    }
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+}
